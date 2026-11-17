@@ -1,0 +1,54 @@
+$File = "C:\Users\KDzhigante\Downloads\archive.zip"
+$Port = 8080
+
+if (!(Test-Path $File)) {
+Write-Host "Архив не найден!"
+return
+}
+
+$Listener = [System.Net.Sockets.TcpListener]::new(
+[System.Net.IPAddress]::Any, $Port
+)
+
+try {
+$Listener.Start()
+Write-Host "Сервер запущен на порту $Port"
+Write-Host "Ожидание подключения из BASIS..."
+
+while ($true) {
+    $Client = $Listener.AcceptTcpClient()
+    try {
+        $Stream = $Client.GetStream()
+        $Reader = New-Object System.IO.StreamReader(
+            $Stream, [System.Text.Encoding]::ASCII
+        )
+
+        $Request = $Reader.ReadLine()
+        while ($line = $Reader.ReadLine()) {
+            if ($line -eq "") { break }
+        }
+
+        $Bytes = [System.IO.File]::ReadAllBytes($File)
+        $Name = [System.IO.Path]::GetFileName($File)
+
+        $Header = "HTTP/1.1 200 OK`r`n" +
+            "Content-Type: application/zip`r`n" +
+            "Content-Length: $($Bytes.Length)`r`n" +
+            "Content-Disposition: attachment; filename=`"$Name`"`r`n" +
+            "Connection: close`r`n`r`n"
+
+        $HeaderBytes = [System.Text.Encoding]::ASCII.GetBytes($Header)
+        $Stream.Write($HeaderBytes, 0, $HeaderBytes.Length)
+        $Stream.Write($Bytes, 0, $Bytes.Length)
+        $Stream.Flush()
+
+        Write-Host "Архив отправлен: $Name"
+    }
+    finally {
+        $Client.Close()
+    }
+}
+}
+finally {
+$Listener.Stop()
+}
