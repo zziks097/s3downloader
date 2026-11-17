@@ -1,0 +1,10 @@
+2026/11/14 14:26:35 finished: listed=0 downloaded=0 skipped=0 failed=0
+2026/11/14 14:26:35 fatal: list bucket: operation error S3: ListObjectsV2, https response error StatusCode: 0, RequestID: , HostID: , request send failed, Get "https://s3.example.com/my-bucket?list-type=2": dial tcp: lookup s3.example.com on 10.255.255.254:53: no such host
+2026/11/14 14:27:33 finished: listed=58 downloaded=58 skipped=0 failed=0
+2026/11/14 14:28:38 finished: listed=58 downloaded=0 skipped=58 failed=0
+2026/11/14 14:30:39 finished: listed=58 downloaded=50 skipped=0 failed=0
+2026/11/14 14:30:39 stopped: checkpoint saved; restart the application to resume
+2026/11/14 14:30:39 fatal: context canceled
+2026/11/14 14:30:46 finished: listed=58 downloaded=8 skipped=50 failed=0
+2026/11/14 14:36:47 finished: listed=58 downloaded=58 skipped=0 failed=0
+2026/11/14 14:54:27 finished: listed=58 downloaded=58 skipped=0 failed=0

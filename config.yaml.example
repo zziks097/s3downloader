@@ -1,0 +1,15 @@
+s3:
+  endpoint: "http://localhost:9000"
+  region: "us-east-1"
+  bucket: "	test-bucket"
+  access_key_id: "minioadmin"
+  secret_access_key: "minioadmin123"
+  force_path_style: true
+
+download:
+  directory: "./downloads"
+  workers: 8
+  retries: 5
+  retry_delay_seconds: 2
+  state_file: "./s3downloader-state.json"
+  log_file: "./s3downloader.log"

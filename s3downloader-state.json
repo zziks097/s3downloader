@@ -1,0 +1,412 @@
+{
+  "version": 1,
+  "bucket": "test-bucket",
+  "objects": {
+    "README.txt": {
+      "etag": "eb6a49b0c7d72b56b3b8ce557d11c161-1",
+      "size": 60,
+      "last_modified": "2026-11-14T11:21:18.917Z",
+      "sha256": "01f567871658fa85a5b9d23d95ec6cbf2c03d66bdb454dd076deb4fe5607e6db",
+      "completed_at": "2026-11-14T11:54:26.8396072Z"
+    },
+    "binary/random-10MiB.bin": {
+      "etag": "b547a533e02d456de9717544f8c28233-1",
+      "size": 10485760,
+      "last_modified": "2026-11-14T11:21:22.084Z",
+      "sha256": "476ccfb7e9e8f10cd4e4e9a4a2996cb1b093b706cff465b72c5af351e9d34063",
+      "completed_at": "2026-11-14T11:54:27.0223459Z"
+    },
+    "binary/random-256KiB.bin": {
+      "etag": "600a56d21bafd7ce88b312008cc23828-1",
+      "size": 262144,
+      "last_modified": "2026-11-14T11:21:21.998Z",
+      "sha256": "3bf1bfaa2c700d42149d7f74e4a23f7eb4d85cb395b63845b41519ffec4af436",
+      "completed_at": "2026-11-14T11:54:26.8657929Z"
+    },
+    "bulk/file-001.txt": {
+      "etag": "8d1686727bbbc7fe5b3d8a21fc17de07-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:19.138Z",
+      "sha256": "1e35d104699af9d3d734a9e539b5963e590ce7d3993092ec055995b0f71103b8",
+      "completed_at": "2026-11-14T11:54:26.8421989Z"
+    },
+    "bulk/file-002.txt": {
+      "etag": "f3324cb4ff7578caa01c22554a98bd73-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:19.214Z",
+      "sha256": "c8ef98af1bb00330cb6fee88553d84bc50bdff5c7a212e07c0a09213bc11fb8c",
+      "completed_at": "2026-11-14T11:54:26.8411618Z"
+    },
+    "bulk/file-003.txt": {
+      "etag": "abd981e398e9662babd4d307ba4cf0f3-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:19.239Z",
+      "sha256": "da585d290db68690dbbffdb38481d9e4775dbc4b5f754be68cea8cfd20aba601",
+      "completed_at": "2026-11-14T11:54:26.8463961Z"
+    },
+    "bulk/file-004.txt": {
+      "etag": "f9dfa2c44eec18989d2767cd956b5d3d-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:19.328Z",
+      "sha256": "4f62dd8661d266447cddef5d37453248b42cbe8f721af9218983ef7e81f47b7e",
+      "completed_at": "2026-11-14T11:54:26.8448321Z"
+    },
+    "bulk/file-005.txt": {
+      "etag": "ddd8854a0e630d738af38fbfc2d929b2-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:19.386Z",
+      "sha256": "35f7b4420fa29d502b988564d5fd049ded0ffdd4a1d2713c728fe98e9efded4c",
+      "completed_at": "2026-11-14T11:54:26.8432713Z"
+    },
+    "bulk/file-006.txt": {
+      "etag": "a9c7ade8017d25aa8828e51f9d6a7137-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:19.415Z",
+      "sha256": "86ab98c45a3c82c9676d87db6493055e60ad55bc5f455de87f7767f44815aaa9",
+      "completed_at": "2026-11-14T11:54:26.8491719Z"
+    },
+    "bulk/file-007.txt": {
+      "etag": "32873b9adaf489a802c1380d3e03637f-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:19.438Z",
+      "sha256": "a6af977e8ac7d0ef08506c2e82f2e88320b4bf9c9e25cf2cb1ccff99aacca7e1",
+      "completed_at": "2026-11-14T11:54:26.8895909Z"
+    },
+    "bulk/file-008.txt": {
+      "etag": "096f13a712a9400fbe151f267c21cf45-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:19.528Z",
+      "sha256": "a9e016280781af1abcf04967632738d6462e72cc38f950d79ab716f3df296c77",
+      "completed_at": "2026-11-14T11:54:26.8833586Z"
+    },
+    "bulk/file-009.txt": {
+      "etag": "0d7c0f8593d8f0235bc1ce933947e951-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:19.559Z",
+      "sha256": "32fa71a3ec5baf8b446947ef60ca8282051ff63a893d0e775984e3c47879907e",
+      "completed_at": "2026-11-14T11:54:26.888046Z"
+    },
+    "bulk/file-010.txt": {
+      "etag": "84b69e2e230710b16fb789a65e9b7156-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:19.626Z",
+      "sha256": "5cd500ca32e4aa2edb21f733f663ee60547d7a88ec3f95094ffb0a55b7c2e439",
+      "completed_at": "2026-11-14T11:54:26.8875256Z"
+    },
+    "bulk/file-011.txt": {
+      "etag": "5a2ffb6b829f72fc63214fb451f732b0-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:19.705Z",
+      "sha256": "41f84e35ba18aef61d7fbd22655276b600a9c513af410612a11613cb1f5eb1f8",
+      "completed_at": "2026-11-14T11:54:26.9312656Z"
+    },
+    "bulk/file-012.txt": {
+      "etag": "d5b751a9e1cc03ade8e4749b41b05561-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:19.73Z",
+      "sha256": "c55e73be4373db1a0370efe0d533e09e92e3704b889c8f4f7d4db877c43f5f3f",
+      "completed_at": "2026-11-14T11:54:26.9348396Z"
+    },
+    "bulk/file-013.txt": {
+      "etag": "ff26d3a27169c383a745994e841ab774-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:19.773Z",
+      "sha256": "50e7d3e21ceab7a9b09d9fb0591b5f30e555ae3277fefe5b15169ed88137d1b0",
+      "completed_at": "2026-11-14T11:54:26.9332042Z"
+    },
+    "bulk/file-014.txt": {
+      "etag": "38a8d78d4d549c08201b5c01ba13cf62-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:19.82Z",
+      "sha256": "131308c3612ed60a32d6cd552c04b59f18bcce82f93782fe8246214495a25fe1",
+      "completed_at": "2026-11-14T11:54:26.9395053Z"
+    },
+    "bulk/file-015.txt": {
+      "etag": "805dac5a61f5fe5414892051e78c2631-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:19.89Z",
+      "sha256": "e304f56cbfbadcfad4a12ab5a8740bca83cd950d0921faf4aff300518aaa277a",
+      "completed_at": "2026-11-14T11:54:26.9939903Z"
+    },
+    "bulk/file-016.txt": {
+      "etag": "3eb530d4bcc673dee9334072a514a612-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:19.915Z",
+      "sha256": "350a92a8bf12feb02a73657180aeabfa0009b69e28e3394bab8fb16eb39589f7",
+      "completed_at": "2026-11-14T11:54:27.0303648Z"
+    },
+    "bulk/file-017.txt": {
+      "etag": "de9cd69b9221f148d7ab9fb1cb945d6f-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:19.939Z",
+      "sha256": "cc717a0de3d120d7432266ac2a33073d6fbd0fde4ee6e02979a2113126d02796",
+      "completed_at": "2026-11-14T11:54:26.996421Z"
+    },
+    "bulk/file-018.txt": {
+      "etag": "c971a2fad3688aebabd7cde4eaf2caf1-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:19.983Z",
+      "sha256": "8f8ae67f86f10f0f94f892d213828297372d47bf38c501f7d4223fb257fd4f49",
+      "completed_at": "2026-11-14T11:54:27.0293283Z"
+    },
+    "bulk/file-019.txt": {
+      "etag": "348909beede5452a9b332e69804a14f2-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:20.04Z",
+      "sha256": "7fdade8aad3b653e4b5105e0d7fe51b34ed34494b2dbca96fc8578839767827a",
+      "completed_at": "2026-11-14T11:54:27.0088898Z"
+    },
+    "bulk/file-020.txt": {
+      "etag": "6b47da4f4a32bea744d586886bbc3233-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:20.34Z",
+      "sha256": "2df51ebbc0a9be0956137c9e8b4daec07ff9efd81532e9bca80f9b87f93cbbf3",
+      "completed_at": "2026-11-14T11:54:27.0308825Z"
+    },
+    "bulk/file-021.txt": {
+      "etag": "43843dc3e8252d5a0330c9530dcd025d-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:20.433Z",
+      "sha256": "a0a9f038e4374fabc94210a670b6e8bb9fbec351663015ed9b57c76ed4c241c4",
+      "completed_at": "2026-11-14T11:54:27.0314031Z"
+    },
+    "bulk/file-022.txt": {
+      "etag": "d18554c8ba1d286764e03b48bc2a9308-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:20.458Z",
+      "sha256": "28ba771aa00465bb313a1767d15cad21cee64de0188d29bec251ee1913a14d70",
+      "completed_at": "2026-11-14T11:54:27.0345674Z"
+    },
+    "bulk/file-023.txt": {
+      "etag": "97f1523ac661f5606791d50622da839b-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:20.487Z",
+      "sha256": "5af11a0cabcc9ff79d3ad4bdbfc880958762b192033da603538ead3580ca01c7",
+      "completed_at": "2026-11-14T11:54:27.0329647Z"
+    },
+    "bulk/file-024.txt": {
+      "etag": "c79823d5a31f3522f85df9fe7b009754-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:20.51Z",
+      "sha256": "c89fb025795da6b4104b018c2597b1e635e3c483ea76f65b0a45591427444e78",
+      "completed_at": "2026-11-14T11:54:27.0362214Z"
+    },
+    "bulk/file-025.txt": {
+      "etag": "92dc940ed314816183c66aea2a41a900-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:20.533Z",
+      "sha256": "ae94d21eacd14cf0b7e00bde1692a4d92eb71ae5ade26f41d04ba46468cc1f6f",
+      "completed_at": "2026-11-14T11:54:27.0389845Z"
+    },
+    "bulk/file-026.txt": {
+      "etag": "531f642ce7b7949bc286d66d8fc9c83c-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:20.576Z",
+      "sha256": "37f491a2e7b1278241cdb4430df14cf9750939d8ddbc398b184b7471297c5f1d",
+      "completed_at": "2026-11-14T11:54:27.047571Z"
+    },
+    "bulk/file-027.txt": {
+      "etag": "50dc7b987086874fe99cd8983232752b-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:20.616Z",
+      "sha256": "5385171b3510c4f53b29eb81c336d420b84654daf963bf707bf8225c45cd6bc0",
+      "completed_at": "2026-11-14T11:54:27.041092Z"
+    },
+    "bulk/file-028.txt": {
+      "etag": "4c4dbe1148e52c194aea0344464a09d2-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:20.641Z",
+      "sha256": "cfff687ca4c1a4e898afbab96c12abee143d1df4f1d3ad1cb83a0d0ab3ecd5b6",
+      "completed_at": "2026-11-14T11:54:27.0486033Z"
+    },
+    "bulk/file-029.txt": {
+      "etag": "26275337dd55ba5a44d2aa514040830d-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:20.675Z",
+      "sha256": "b233ff4c1d1829f673a7b86643c33491f991635da568e4a272652dfb8c803b8e",
+      "completed_at": "2026-11-14T11:54:27.0421543Z"
+    },
+    "bulk/file-030.txt": {
+      "etag": "a9e98df8b60fe9bae50991bafcbe5684-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:20.699Z",
+      "sha256": "7f0b37457989799ef368800adf34be0c81bf61cad281718a7517af5bcd632e5b",
+      "completed_at": "2026-11-14T11:54:27.044256Z"
+    },
+    "bulk/file-031.txt": {
+      "etag": "0020e17dd346fcffb48111e7884e4809-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:20.724Z",
+      "sha256": "1d9fac9ad98a242cdad965fc91a45c795245aa6f1e83d7b5efc0c431c1c48d10",
+      "completed_at": "2026-11-14T11:54:27.0465246Z"
+    },
+    "bulk/file-032.txt": {
+      "etag": "9ab288ed96223cc2f5691fde0d8bf319-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:20.754Z",
+      "sha256": "deb6e8fd81b84b0cf5193480403015d3513c888acd68c2d3af431e41f8782d48",
+      "completed_at": "2026-11-14T11:54:27.0491283Z"
+    },
+    "bulk/file-033.txt": {
+      "etag": "9dbb6506d24871e0cd4bd2edb9699326-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:20.982Z",
+      "sha256": "3d2e83f0a69b67690f5eb92065d568713eed6be06bf1de249d01a8d53a892324",
+      "completed_at": "2026-11-14T11:54:27.0501721Z"
+    },
+    "bulk/file-034.txt": {
+      "etag": "9fe153f3d1992acf57d036acc868fc60-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:21.017Z",
+      "sha256": "648a76d603856d0e9adaafafd2b2abd5d8308aed54bb2d46cfb5079cd9771384",
+      "completed_at": "2026-11-14T11:54:27.0598681Z"
+    },
+    "bulk/file-035.txt": {
+      "etag": "c7240fa95e43f04cf1dba4c0490785e1-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:21.07Z",
+      "sha256": "71031ffcf9947b2a8344f6959eeb7ffe69b58a48df79f24dc6d8f8708a296a88",
+      "completed_at": "2026-11-14T11:54:27.0603801Z"
+    },
+    "bulk/file-036.txt": {
+      "etag": "46f3d87f8859d8b0fd9779f10e618abc-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:21.122Z",
+      "sha256": "d51b85abf1128cf029487c9118b200540b1a3e1adfa31f56480bd8c68ecdd302",
+      "completed_at": "2026-11-14T11:54:27.062986Z"
+    },
+    "bulk/file-037.txt": {
+      "etag": "0393629e1afd6e2dbe1314c26c530690-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:21.149Z",
+      "sha256": "98c3e240ac6908cf53e9015e1f1dd1ebbe9176146b35c11266ce81b4ad9460ac",
+      "completed_at": "2026-11-14T11:54:27.0614257Z"
+    },
+    "bulk/file-038.txt": {
+      "etag": "ae2714a4aef8b95158857cf9e96f5e9f-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:21.176Z",
+      "sha256": "c2574602ac8d901734447c56b75f7505a4713cb5d4802a9fcaf86e16c73d8f96",
+      "completed_at": "2026-11-14T11:54:27.0671905Z"
+    },
+    "bulk/file-039.txt": {
+      "etag": "d527331beb039bbb959343b58624ec36-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:21.216Z",
+      "sha256": "e4341edd632912c1b722aa67f430d33b7e6de258ec2c0e72a2d0463fb775d257",
+      "completed_at": "2026-11-14T11:54:27.0624636Z"
+    },
+    "bulk/file-040.txt": {
+      "etag": "37a79f6f206c0ccb99a21eee354f9453-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:21.24Z",
+      "sha256": "5d52399143a8ea525e6bb9bb728a77fa91212f761a8deb6cb2175580a80ba3b9",
+      "completed_at": "2026-11-14T11:54:27.0640092Z"
+    },
+    "bulk/file-041.txt": {
+      "etag": "9e4b63b6a646420e48b9d0fa86254865-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:21.416Z",
+      "sha256": "43c97c943ab42da0faf33876a9b41e90dfdb85d8f0e0536afca549c2e4e00b60",
+      "completed_at": "2026-11-14T11:54:27.0661193Z"
+    },
+    "bulk/file-042.txt": {
+      "etag": "ce387c3522b305d7bb3ea9b0af15951c-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:21.479Z",
+      "sha256": "fba5f71ae154e1e231a9877e6235f75d8d2eb405fcdd0a31830466e64dafb84a",
+      "completed_at": "2026-11-14T11:54:27.0682339Z"
+    },
+    "bulk/file-043.txt": {
+      "etag": "a0dadffd37cc3082efa7a37e539bb175-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:21.565Z",
+      "sha256": "409ce5066417ee8b92052864e4f249f82d862b4d083dea617cb52836b9853d9d",
+      "completed_at": "2026-11-14T11:54:27.0693091Z"
+    },
+    "bulk/file-044.txt": {
+      "etag": "28d6fd4f5f13c1cf1bc2b21027e74d55-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:21.624Z",
+      "sha256": "07e07f24ec9013e57916f41671bcba332afed68baf22f6b6ec2601431810f1a1",
+      "completed_at": "2026-11-14T11:54:27.0703548Z"
+    },
+    "bulk/file-045.txt": {
+      "etag": "677ceabae7bb6b3d92a675da073f188a-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:21.671Z",
+      "sha256": "d9eb742c0ce05487afb5eb02af2ef0dcea0e6708f0ffe01b62c605fb6502d79d",
+      "completed_at": "2026-11-14T11:54:27.073994Z"
+    },
+    "bulk/file-046.txt": {
+      "etag": "00282a3bbb9406208168957f0db9576f-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:21.697Z",
+      "sha256": "1bf82b653feb416dee57812e5e10d8ee1bc7d9671e0b3b15d691b51482ea52e4",
+      "completed_at": "2026-11-14T11:54:27.0713968Z"
+    },
+    "bulk/file-047.txt": {
+      "etag": "9018e91cb5f144f3264b58e80d9cc7ba-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:21.72Z",
+      "sha256": "23b06c6e13c56bcc750e6b278334254a054c90d654edd63eefe26439c3d80ac8",
+      "completed_at": "2026-11-14T11:54:27.0724384Z"
+    },
+    "bulk/file-048.txt": {
+      "etag": "80ebc21f9371affdd77b15469d69a506-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:21.754Z",
+      "sha256": "d490a2927caafe35bbf5270319cedd75b3989884bdf85c737f6d74f1a3e82f61",
+      "completed_at": "2026-11-14T11:54:27.0786713Z"
+    },
+    "bulk/file-049.txt": {
+      "etag": "fddb574673b227ec3b0f8121e23afb00-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:21.805Z",
+      "sha256": "8f6b06dde6a4f2f0c0dd5889eb0b74eba58bff88da8cf69f72877f367e3e74b5",
+      "completed_at": "2026-11-14T11:54:27.075034Z"
+    },
+    "bulk/file-050.txt": {
+      "etag": "6b339e8685f4656cc1bab651c872e3b1-1",
+      "size": 23,
+      "last_modified": "2026-11-14T11:21:21.828Z",
+      "sha256": "bd81f298152b5511596d6d921aa893e9e853cb1e5224f533c7e41df46d4704e2",
+      "completed_at": "2026-11-14T11:54:27.0760724Z"
+    },
+    "docs/config/app.yaml": {
+      "etag": "761855febf165a04d71243850e3a68d5-1",
+      "size": 53,
+      "last_modified": "2026-11-14T11:21:18.982Z",
+      "sha256": "27a80d94b5f1f177d069f163f63d91718364e46d62db22bf565a33a1f5ddff71",
+      "completed_at": "2026-11-14T11:54:27.080731Z"
+    },
+    "docs/readme.txt": {
+      "etag": "f104098728360908c30f01d78fab93be-1",
+      "size": 53,
+      "last_modified": "2026-11-14T11:21:18.94Z",
+      "sha256": "bcfaaa8d596e804bd825050aeeba518d4c7eaf034131882fd12293d9de5db1a2",
+      "completed_at": "2026-11-14T11:54:27.0776352Z"
+    },
+    "empty/zero-byte.dat": {
+      "etag": "741e0f4bad5b093044dc54a74d911094-1",
+      "size": 1,
+      "last_modified": "2026-11-14T11:21:19.114Z",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "completed_at": "2026-11-14T11:54:27.0771115Z"
+    },
+    "unicode/Привет-мир.txt": {
+      "etag": "3a04ae1c66554af61e264c8cec9ecd3e-1",
+      "size": 51,
+      "last_modified": "2026-11-14T11:21:19.024Z",
+      "sha256": "c551e2fbe43fa9e9c9357417d93da1f25704bbc409d610174936aefff008b58d",
+      "completed_at": "2026-11-14T11:54:27.0791842Z"
+    },
+    "unicode/東京.txt": {
+      "etag": "d248f8aa88c7c85b247dd78a1d12cd2e-1",
+      "size": 25,
+      "last_modified": "2026-11-14T11:21:19.076Z",
+      "sha256": "145c3d4363c3f021daed8effe2834f04d5a2fb33a76b8215afa5d32be6ff4e55",
+      "completed_at": "2026-11-14T11:54:27.0802169Z"
+    }
+  }
+}

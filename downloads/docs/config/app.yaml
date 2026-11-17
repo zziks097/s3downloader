@@ -1,0 +1,1 @@
+app:\n  name: minio-downloader-test\n  enabled: true
